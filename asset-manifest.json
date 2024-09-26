@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mobinet/static/css/main.3f1b2038.css",
+    "main.js": "/mobinet/static/js/main.eed6cd7c.js",
+    "static/media/redmi a3.webp": "/mobinet/static/media/redmi a3.0bb054d88646fd9cbb66.webp",
+    "static/media/banner_SlideBanner_f5121q.webp": "/mobinet/static/media/banner_SlideBanner_f5121q.76feec54eac3499b32e9.webp",
+    "static/media/banner_SlideBanner_m7ASiM.webp": "/mobinet/static/media/banner_SlideBanner_m7ASiM.180b08f02273aec2264b.webp",
+    "static/media/banner_SlideBanner.webp": "/mobinet/static/media/banner_SlideBanner.8f540b61fb21ed5111e3.webp",
+    "static/media/nokia.jpeg": "/mobinet/static/media/nokia.558f2312d3611ddaf9fc.jpeg",
+    "static/media/talblet.webp": "/mobinet/static/media/talblet.ec0317de3aa0d934a602.webp",
+    "static/media/xiaomi.jpeg": "/mobinet/static/media/xiaomi.4f17d644adadf51e09d9.jpeg",
+    "static/media/samsung.jpeg": "/mobinet/static/media/samsung.fcb593e47337838b0cf0.jpeg",
+    "static/media/banner_SecondTwinBanners.webp": "/mobinet/static/media/banner_SecondTwinBanners.817291402178ee9b4044.webp",
+    "static/media/redmiNot 13.webp": "/mobinet/static/media/redmiNot 13.6ac2f81c5088a376c6f5.webp",
+    "static/media/revicons.eot": "/mobinet/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/mobinet/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/redmi not 13 4g.webp": "/mobinet/static/media/redmi not 13 4g.2001c963f4ffbeed3a2c.webp",
+    "static/media/apple.webp": "/mobinet/static/media/apple.7cdcc8dc3751c48ab306.webp",
+    "static/media/revicons.woff": "/mobinet/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/mobinet/index.html",
+    "main.3f1b2038.css.map": "/mobinet/static/css/main.3f1b2038.css.map",
+    "main.eed6cd7c.js.map": "/mobinet/static/js/main.eed6cd7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1b2038.css",
+    "static/js/main.eed6cd7c.js"
+  ]
+}
