@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mobinet/static/css/main.3f1b2038.css",
-    "main.js": "/mobinet/static/js/main.eed6cd7c.js",
+    "main.js": "/mobinet/static/js/main.b403fa00.js",
     "static/media/redmi a3.webp": "/mobinet/static/media/redmi a3.0bb054d88646fd9cbb66.webp",
     "static/media/banner_SlideBanner_f5121q.webp": "/mobinet/static/media/banner_SlideBanner_f5121q.76feec54eac3499b32e9.webp",
     "static/media/banner_SlideBanner_m7ASiM.webp": "/mobinet/static/media/banner_SlideBanner_m7ASiM.180b08f02273aec2264b.webp",
@@ -19,10 +19,10 @@
     "static/media/revicons.woff": "/mobinet/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/mobinet/index.html",
     "main.3f1b2038.css.map": "/mobinet/static/css/main.3f1b2038.css.map",
-    "main.eed6cd7c.js.map": "/mobinet/static/js/main.eed6cd7c.js.map"
+    "main.b403fa00.js.map": "/mobinet/static/js/main.b403fa00.js.map"
   },
   "entrypoints": [
     "static/css/main.3f1b2038.css",
-    "static/js/main.eed6cd7c.js"
+    "static/js/main.b403fa00.js"
   ]
 }
