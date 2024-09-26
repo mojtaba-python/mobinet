@@ -1,0 +1,91 @@
+.nav_item_hover{
+    position: relative;
+
+}
+.items_nav {
+    position: absolute;
+    display: none;
+    width: 400px;
+    top: 35px;
+    flex-direction: column;
+    background-color: #eff3f6;
+    border-top: 3px solid #f08600;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    z-index: 2;
+}
+.nav_item_hover:hover .items_nav{
+    display: block; 
+}
+
+.items_nav a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    z-index: 100;
+}
+.sec1_items{
+    width: 150px;
+    background-color: #f6f6f6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 7px;
+}
+
+
+.sec1_subItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 250ms ease-out;
+    padding: 10px 0;
+
+}
+.sec1_subItem:hover{
+    background-color: #fff;
+}
+.bi_menu_nav{
+    display: none;
+}
+.sec1_subItem:hover .bi_menu_nav{
+    display: block;
+}
+.sec2_nav_items{
+    padding: 0 1rem;
+    position: relative;
+    width: 150px;
+    background-color: #ffffff;
+    width: 63%;
+    padding-top: 1rem;
+}
+#sec2_xiaomi{
+    display: none;
+    flex-direction: column;
+    row-gap: 20px;
+    position: absolute;
+    
+}
+#sec2_samsung{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 20px;
+   
+} 
+.link_hover{
+    transition: all 250ms ease-out;
+}
+.link_hover:hover{
+    color: rgb(231, 150, 0);
+}
+.nav-link{
+    color: #203545a1;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 0 1rem;
+    transition: all 400ms ease-in;
+}
+.nav-link:hover{
+    background-color: #f8ca8dc6;
+    color:#f08600
+}

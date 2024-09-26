@@ -1,0 +1,142 @@
+.footer{
+    background-color: #2a3238;
+}
+.box_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+    padding: 1rem 0;
+}
+
+.sec1_footer h5{
+    color:#fff;
+    margin-bottom: 1rem;
+}
+.sec1_footer ul {
+    position: relative;
+}
+.sec1_footer ul li{
+    list-style: none;
+    margin:10px 0;
+    width: 120px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sec1_footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: smaller;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  
+}
+.sec1_footer ul li:hover a{
+    color:rgb(54, 255, 4);
+    transform: translateX(-10px);
+    cursor: pointer;
+ 
+}
+
+
+.sec2_footer h5{
+    color:#fff;
+    margin-bottom: 1rem;
+}
+
+.sec2_footer ul li{
+    list-style: none;
+    margin:10px 0;
+    width: 140px;
+    display: flex;
+    cursor: pointer;
+   
+}
+.sec2_footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: smaller;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  
+}
+.sec2_footer ul li:hover a{
+    color:rgb(54, 255, 4);
+    transform: translateX(-10px);
+    cursor: pointer;
+ 
+}
+
+
+.sec3_footer h5{
+    color:#fff;
+    margin-bottom: 1rem;
+}
+
+.sec3_footer ul li{
+    list-style: none;
+    margin:13px 0;
+    width: 250px;
+    display: flex;
+    cursor: pointer;
+   
+}
+.sec3_footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: smaller;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.sec3_footer ul li:hover a{
+    color:rgb(54, 255, 4);
+    transform: translateX(-10px);
+    cursor: pointer;
+}
+.sec3_footer ul li span{
+    color: #fff;
+    font-size: small;
+}
+.sec3_footer ul li:hover span{
+    color:rgb(54, 255, 4);
+    cursor: pointer;
+}
+
+.github_footer{
+    font-size: x-large;
+    font-size: x-large;
+    border-radius: 2px;   
+    display: inline-flex;
+}
+.github_footer:hover{
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+}
+.telegram_footer{
+    font-size: x-large;
+    font-size: x-large;
+    border-radius: 2px;   
+    display: inline-flex;
+}
+.telegram_footer:hover{
+    color:#3482f8;
+    background-color: #fff;
+}
+.insta_footer{
+    font-size: x-large;
+    font-size: x-large;
+    border-radius: 2px;   
+    display: inline-flex;
+}
+.insta_footer:hover{
+    color: #fff;
+    background:linear-gradient(22deg, #e9c208, #f600ff);
+}
+
+@media screen and (max-width:680px) {
+    .box_footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}

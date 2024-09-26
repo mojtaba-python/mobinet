@@ -1,0 +1,100 @@
+.container_message{
+    width: 550px;
+    padding: 3rem;
+    background: linear-gradient(176deg, green, #0a1406);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.form_send_message{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    row-gap: 1rem;
+}
+.box_form_message{
+    background-color: #fff;
+    width: 400px;
+    border: 6px solid #FF9800;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px 0px;
+    margin-bottom: 2rem;
+    
+}
+.box_form_message span{
+    color: red;
+    font-size: smaller;
+}
+.name_send_mess{
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(218 218 218);
+    padding: 6px;
+    background-color: #F1F6FE;
+}
+.form_send_message input:focus{
+    outline: none;
+    border: 2px solid #009200;
+    background-color: #fff;
+}
+.form_send_message textarea{
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(218 218 218);
+    padding: 6px;
+    background-color: #F1F6FE;
+}
+.form_send_message textarea:focus{
+    outline: none;
+    border: 2px solid #009200;
+    background-color: #fff;
+}
+.btn_send{
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(218 218 218);
+    padding: 6px;
+    background-color: #F1F6FE;
+}
+.btn_send:hover{
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #009200;
+    padding: 6px;
+    color: #009200;
+    background-color: #fff;
+}
+.name_send_mess::-webkit-input-placeholder{
+    font-size: small;
+    color: #686868;
+}
+textarea::-webkit-input-placeholder{
+    font-size: small;
+    color: #888888;
+}
+.box_success_message{
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #45a600;
+    width: 400px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:700px) {
+    .box_success_message{
+        width: 340px;
+    }
+    .container_message{
+      width: 340px;
+    }
+    .box_form_message{
+      width: 315px;
+    }
+    .container_user {
+        width: 360px;
+    }
+
+  }

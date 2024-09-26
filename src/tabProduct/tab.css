@@ -1,0 +1,137 @@
+.nav-link {
+    color: #6a6b75;
+}
+
+#navbar-example2 {
+    background-color: #daeafb !important;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container_attr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.box_atts_pro {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.box_att_pro {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F6FE;
+    padding: 10px;
+    border-radius: 5px;
+    row-gap: 10px;
+    border: 1px solid #d1dadf;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.title_attr {
+    color: #7d7d7d;
+}
+
+.body_attr {
+    font-size: smaller;
+}
+
+.sec2_pro_attrs {
+    height: 375px;
+    background: linear-gradient(to bottom, orange, rgb(44, 29, 2));
+    border: 1px solid #b4b4b4;
+    position: sticky;
+    margin-top: 1rem;
+    top: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    transition: all 400ms ease-in;
+}
+
+.sec2_pro_attrs h5 {
+    color: rgb(255 255 255);
+    padding: 10px;
+
+}
+
+.sec2_pro_attrs:hover {
+    background:linear-gradient(to bottom, orange,orange, rgb(44, 29, 2));
+    transition: all 400ms ease-in;
+}
+
+.scrollspy-example h4 {
+    position: relative;
+}
+
+.scrollspy-example h4::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: orange;
+    top: 9px;
+    right: -18px;
+    border-radius: 30px;
+}
+
+#scrollspyHeading2 {
+    margin: 2rem 0;
+}
+
+#scrollspyHeading5 {
+    margin: 2rem 0;
+}
+
+#scrollspyHeading3 {
+    margin: 2rem 0;
+}
+
+#scrollspyHeading4 {
+    margin: 2rem 0;
+}
+
+.box_sec2 {
+    text-align: center;
+    height: 40%;
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.box_sec2 img {
+    height: 100%;
+    width: 72%;
+}
+
+.text_sec2 {
+    line-height: 30px;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.price_sec2 {
+    font-weight: 600;
+    color: #ffbb00;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #797777;
+}
+@media screen and (max-width:500px) {
+    .box_sec2 {
+        width: 80%;
+    }
+}

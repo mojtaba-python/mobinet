@@ -1,0 +1,90 @@
+.login_page{
+    background-color: rgb(18, 31, 49);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.box_login_user{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    row-gap: 30px;
+
+}
+.box_login_user h4{
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+}
+.form_login{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 275px;
+}
+.form_login input{
+    padding: 7px;
+    background: #2d3840;
+    outline: none;
+    border: 1px solid #56646e;
+    border-radius: 7px;
+    direction: ltr;
+    color: #fff;
+}
+.form_login input:focus{
+    border: 1px solid orange;
+}
+.form_login a{
+    padding: 7px;
+    background: #2d3840;
+    outline: none;
+    border: 1px solid #56646e;
+    border-radius: 7px;
+    direction: ltr;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 900;
+    transition: all 500ms ease;
+}
+.form_login a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    border-radius: 7px;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+.form_login a:hover::before{
+    width: 100%;
+    transition: all 500ms ease;
+}
+.form_login div{
+    text-align: justify;
+    display: flex;
+    column-gap: 9px;
+    color: #fff;
+}
+
+.box_logo_login{
+    display: flex;
+    justify-content: center;
+}
+#checkbox_login:active{
+    background-color: orange;
+}
+#checkbox_login:checked + #span_check{
+    color: orange;
+}

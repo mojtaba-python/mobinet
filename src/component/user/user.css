@@ -1,0 +1,40 @@
+.container_user{
+    background-color: #fff;
+    width: 400px;
+    border: 2px solid rgb(66 160 1);
+    padding: 1rem;
+    border-radius: 14px 0px;
+    margin-bottom: 2rem;
+}
+.box_mess_user{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.box_mess_user div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #687b8f;
+}
+.bi-hand-thumbs-down{
+    cursor: pointer;
+
+}
+.box_like_user{
+    color: rgb(104, 123, 143);
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+}
+.box_like_user div{
+    font-size: smaller;
+    cursor: pointer;
+}
+@media screen and (max-width:700px) {
+    
+    .container_user {
+        width: 340px;
+    }
+
+  }
